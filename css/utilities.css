@@ -47,6 +47,28 @@
   transform: scale(0.98);
 }
 
+/* ALERT */
+.alert {
+  background: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+
+.alert-success {
+  background: var(--success-color);
+  color: #fff;
+}
+
+.alert-error {
+  background: var(--error-color);
+  color: #fff;
+}
+
 /* BACKGROUNDS AND COLORED BUTTONS */
 .bg-primary,
 .btn-primary {
@@ -104,6 +126,22 @@
 
 .text-center {
   text-align: center;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-dark {
+  color: var(--dark-color);
+}
+
+.text-light {
+  color: var(--light-color);
 }
 
 /* MARGIN */
